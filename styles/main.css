@@ -9,7 +9,7 @@ body {
 main{
     font-family: "Mulish", serif;
     font-weight: 800;
-
+    background-color: rgb(243, 243, 243);
     min-height: 90vh;
     padding: 2%;
 }
@@ -70,4 +70,11 @@ footer .col a{
 }
 #toggle-sidebar {
     color: white;
+}
+.formulario .mb-3{
+    text-align: start;
+}
+
+.offcanvas-start{
+    background-color: white;
 }
