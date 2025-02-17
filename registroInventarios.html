@@ -14,7 +14,7 @@
     <main>
         
         <section class="navegacion">
-            <div class="sidebar" id="sidebar navbarNavDropdown">
+            <div class="sidebar" id="sidebar">
                 <button class="btn" id="toggle-sidebar">
                 <i class="fas fa-bars"></i>
                 </button>
@@ -47,9 +47,9 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <i class="fa-solid fa-paperclip"></i>Reportes</a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          <li><a class="dropdown-item" href="#">Reporte de Ingresos</a></li>
+                          <li><a class="dropdown-item" href="#">Reporte Inventario</a></li>
+                          <li><a class="dropdown-item" href="#">Reporte Citas</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -58,7 +58,6 @@
                             <span>Cerrar Sesión</span>
                         </a>
                     </li>
-                    
                 </ul>
             </div>
         </section>
@@ -67,7 +66,7 @@
 
             <div class="container d-flex justify-content-center align-items">
                 <div class="row">
-                    <form class="formulario text-center p-4 border rounded shadow">
+                    <form class="formulario text-center p-4 border rounded">
                         <h1>Registro de inventario</h1>
                         <div class="bloque">
                             <div class="bloque-uno">
@@ -103,6 +102,9 @@
                                     <label for="" class="form-label">Fecha Vencimiento</label>
                                     <input type="date" class="form-control" id="" aria-describedby="" placeholder="Nombre...">
                                 </div>
+                                <div class="mb-3 opciones">
+                                    <button type="submit" class="btn btn-success w-100">Guardar</button>
+                                    <button type="submit" class="btn btn-danger w-100">Cancelar</button>                                </div>
                             </div>
                             <div class="bloque-dos">
                                 <div class="mb-3">
@@ -123,8 +125,7 @@
                                 </div>
                             </div>     
                         </div>
-                        <button type="submit" class="btn btn-success w-100">Guardar</button>
-                        <button type="submit" class="btn btn-danger w-100">Cancelar</button>
+                        
                     </form>
                 </div>
             </div>
@@ -156,7 +157,7 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="js/registroPacientes.js"></script>
+    <script src="js/slidebar.js"></script>
 
 </body>
 </html>
